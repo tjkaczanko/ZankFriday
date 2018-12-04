@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0170A31BC6E6C9005F47B7 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF0170A21BC6E6C9005F47B7 /* photo.jpg */; };
+		DFE4006A1A04113D00908DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE400691A04113D00908DDB /* AppDelegate.swift */; };
+		DFE4006C1A04113D00908DDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE4006B1A04113D00908DDB /* ViewController.swift */; };
+		DFE4006F1A04113E00908DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE4006D1A04113E00908DDB /* Main.storyboard */; };
+		DFE400711A04113E00908DDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE400701A04113E00908DDB /* Images.xcassets */; };
+		DFE400741A04113E00908DDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE400721A04113E00908DDB /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFC1BE131BC6A2DA0031983C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF0170A21BC6E6C9005F47B7 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		DFE400641A04113D00908DDB /* ZankFriday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZankFriday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE400681A04113D00908DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE400691A04113D00908DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFE4006B1A04113D00908DDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFE4006E1A04113E00908DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFE400701A04113E00908DDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFE400731A04113E00908DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFE4007E1A04113E00908DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE4007F1A04113E00908DDB /* ZankFridayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZankFridayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFE400611A04113D00908DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFE4005B1A04113D00908DDB = {
+			isa = PBXGroup;
+			children = (
+				DFE400661A04113D00908DDB /* ZankFriday */,
+				DFE4007C1A04113E00908DDB /* ZankFridayTests */,
+				DFE400651A04113D00908DDB /* Products */,
+				DF0170A21BC6E6C9005F47B7 /* photo.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		DFE400651A04113D00908DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFE400641A04113D00908DDB /* ZankFriday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFE400661A04113D00908DDB /* ZankFriday */ = {
+			isa = PBXGroup;
+			children = (
+				DFE400691A04113D00908DDB /* AppDelegate.swift */,
+				DFE4006B1A04113D00908DDB /* ViewController.swift */,
+				DFE4006D1A04113E00908DDB /* Main.storyboard */,
+				DFE400701A04113E00908DDB /* Images.xcassets */,
+				DFE400721A04113E00908DDB /* LaunchScreen.xib */,
+				DFE400671A04113D00908DDB /* Supporting Files */,
+			);
+			path = ZankFriday;
+			sourceTree = "<group>";
+		};
+		DFE400671A04113D00908DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE400681A04113D00908DDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE4007C1A04113E00908DDB /* ZankFridayTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4007F1A04113E00908DDB /* ZankFridayTests.swift */,
+				DFE4007D1A04113E00908DDB /* Supporting Files */,
+			);
+			path = ZankFridayTests;
+			sourceTree = "<group>";
+		};
+		DFE4007D1A04113E00908DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFE4007E1A04113E00908DDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFE400631A04113D00908DDB /* ZankFriday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE400831A04113E00908DDB /* Build configuration list for PBXNativeTarget "ZankFriday" */;
+			buildPhases = (
+				DFE400601A04113D00908DDB /* Sources */,
+				DFE400611A04113D00908DDB /* Frameworks */,
+				DFE400621A04113D00908DDB /* Resources */,
+				DFC1BE131BC6A2DA0031983C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZankFriday;
+			productName = ZankFriday;
+			productReference = DFE400641A04113D00908DDB /* ZankFriday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFE4005C1A04113D00908DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Zank;
+				TargetAttributes = {
+					DFE400631A04113D00908DDB = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = SW87V73MZZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFE4005F1A04113D00908DDB /* Build configuration list for PBXProject "ZankFriday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFE4005B1A04113D00908DDB;
+			productRefGroup = DFE400651A04113D00908DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFE400631A04113D00908DDB /* ZankFriday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFE400621A04113D00908DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE4006F1A04113E00908DDB /* Main.storyboard in Resources */,
+				DFE400741A04113E00908DDB /* LaunchScreen.xib in Resources */,
+				DF0170A31BC6E6C9005F47B7 /* photo.jpg in Resources */,
+				DFE400711A04113E00908DDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFE400601A04113D00908DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE4006C1A04113D00908DDB /* ViewController.swift in Sources */,
+				DFE4006A1A04113D00908DDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFE4006D1A04113E00908DDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE4006E1A04113E00908DDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFE400721A04113E00908DDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFE400731A04113E00908DDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFE400811A04113E00908DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFE400821A04113E00908DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFE400841A04113E00908DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW87V73MZZ;
+				INFOPLIST_FILE = ZankFriday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZankFriday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DFE400851A04113E00908DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SW87V73MZZ;
+				INFOPLIST_FILE = ZankFriday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZankFriday;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFE4005F1A04113D00908DDB /* Build configuration list for PBXProject "ZankFriday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE400811A04113E00908DDB /* Debug */,
+				DFE400821A04113E00908DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE400831A04113E00908DDB /* Build configuration list for PBXNativeTarget "ZankFriday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFE400841A04113E00908DDB /* Debug */,
+				DFE400851A04113E00908DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFE4005C1A04113D00908DDB /* Project object */;
+}
